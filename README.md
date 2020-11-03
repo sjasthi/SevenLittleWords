@@ -1,2 +1,2 @@
-# SevenLittleWords
- Seven Little Words
+# Quotes Manager
+Quotes Manager (QM)

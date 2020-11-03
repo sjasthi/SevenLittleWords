@@ -1,6 +1,66 @@
+<head>
+<div class="container">
+<style>.title {text-align: center; color: darkgoldenrod;}
+
+  .words {
+            height: 50px;
+            text-align: center;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+        
+        table {
+            border: 1px solid black;
+            border-collapse: separate;
+            table-layout: fixed;
+            width: 100px;
+            height: 200px;
+            text-align: center;
+        }
+        
+        table td,
+        table th {
+            font-size: 20px;
+            padding: 10px;
+        }
+        
+        .answerkey td {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            padding: none
+    </style>
+</head>
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 require_once ("word_processor.php");
 	$tiles = [];
+
+
+
 				
 	/* function validate_input($words_array)  //Enforces restrictions of the puzzle
 	{
