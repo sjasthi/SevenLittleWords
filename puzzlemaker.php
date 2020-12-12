@@ -1,113 +1,3 @@
-<!-- <head>
-<div class="container">
-<style>.title {text-align: center; color: darkgoldenrod;}
-
-  .words {
-            height: 50px;
-            text-align: center;
-        }
-        
-        h1,
-        h2,
-        h3 {
-            text-align: center;
-        }
-        
-        table {
-            border: 1px solid black;
-            border-collapse: separate;
-            table-layout: fixed;
-            width: 100px;
-            height: 200px;
-            text-align: center;
-        }
-        
-        table td,
-        table th {
-            font-size: 20px;
-            padding: 10px;
-        }
-        
-        .answerkey td {
-            width: 200px;
-            height: 200px;
-            border: 1px solid black;
-            padding: none
-    </style>
-</head> -->
-
-
-                 <html>
-<body>
-<head> 
-<!-- <title>Quote Slider</title>
- -->  <style>
-
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    /*grid-template-columns: auto auto auto auto auto auto auto;*/
-    grid-gap: 10px;
-    background-color: #D3D3D3;
-    padding: 10px;
-    height: 50%;
-    width: 35em;
-    margin: auto;
-    border: 2px solid black;
-  }
-
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    border: 1px solid black;
-  }
-
-  .button{
-    background-color: #33A3C8;
-    border: none;
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 14px;
-  }
-
-  .button:hover{
-    background-color: #008CBA;
-  }
-  </style>
-
-
-
-   <div style="text-align: center;">
- <!--  <h1>Quote Slider</h1> -->
-
-
-  <div class="grid-container"id="word puzzle">
-
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  <div class=""></div><div class=""></div>
-  
-
-
-
-
-
 <?php
 require_once ("word_processor.php");
 	$tiles = [];
@@ -143,6 +33,9 @@ require_once ("word_processor.php");
 		}
 		return count($words_array) == 7 && $number_of_chars >= 20 && $number_of_chars <= 80;
 	} */
+
+
+	 
 	
 	function validate_input($words_array)  //Enforces restrictions of the puzzle
 	{
@@ -217,9 +110,7 @@ require_once ("word_processor.php");
 
 	?>
 
-	<body>
-<table border="1" style="width:100%">
-<tbody>
+	
 
 	<?php
 	
@@ -281,3 +172,36 @@ require_once ("word_processor.php");
 
 
   
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,4 @@
+This folder is part of the Reimage installation.
+Do not delete or modify files in this directory.
+http://www.reimageplus.com/
+To uninstall Reimage use Windows “Uninstall” or follow the direction here: http://www.reimageplus.com/uninstall/

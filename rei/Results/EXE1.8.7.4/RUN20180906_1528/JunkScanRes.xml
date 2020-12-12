@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Results>
+    <TempDelete totalProblems="568" totalSize="27587807192">
+        <dir path="Root" size="27587807192" index="0" count="0">
+            <dir path="C:\WINDOWS\Temp" size="80768347" index="1" count="132" />
+            <dir path="C:\Users\omwer\AppData\Local\Temp" size="137746507" index="159" count="436" />
+            <dir path="Recycle Bin" size="27369292338" index="657" count="1538" />
+        </dir>
+    </TempDelete>
+</Results>

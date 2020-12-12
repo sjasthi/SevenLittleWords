@@ -14,7 +14,7 @@ $query = "SELECT * FROM words";
  <style>
     #title {
         text-align: center;
-        color: white;
+        color: black;
         background-color: #D3D3D3;
          /*background-color: #FF5733;*/
     }
@@ -65,13 +65,17 @@ header('Content-type: text/html; charset=utf-8');
        $inform = array(-1);
 ?>
 <form action=modifyWord.php method ="post">
-       <h2 id="title">Quotelist</h2><br>
+       <h2 id="title">Sevenlittlewords</h2><br>
 
        <button><a class="btn btn-sm" href="createWord2.php">CreateWords</a></button>
        <button type = "submit">Modify</button>
       <button type = "submit" formaction ="deletewords.php">Delete</button>
-      <button type = "submit" formaction ="mypuzzle1.php">Create puzzle</button>
-      <button type ="submit" formaction="">7LW</button>
+      <!-- <button type = "submit" formaction ="mydata.php">Show data</button> 
+      <button type = "submit" formaction ="mydata2.php">Show records</button>
+      <button type = "submit" formaction ="myphp.php">Fetch data</button>
+       <button type = "submit" formaction ="myphp2.php">Fetch mydata</button> -->
+      <button type = "submit" formaction ="Split.php">Create Puzzle</button>
+    
  
         <div id="customerTableView">
         <table class="display" id="ceremoniesTable" style="width:100%">
@@ -200,21 +204,7 @@ header('Content-type: text/html; charset=utf-8');
     } );
 
 </script>
-<!-- </script>
-    <div id="wrapper" class="hfeed">
-        <div class="wrapAll clearfix">
-            <div class="sidebar" id="sidebarContent">
-            </div>
-            <div id="preventMouseHoverOnPageLoad">      
-            </div>
-            <div class="mainsection">
-                <div class="headerLinks">
-                    <a class="user" href="/contribute/">Contribute </a> 
-                </div>
-                <div class="tabs clearfix" id="tabsContent">
-                </div>
-                <div class="article clearfix">
-                    <div id="content" role="main"> -->
+
 </body>
 </html>
 
